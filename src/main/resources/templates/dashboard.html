@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="layout :: layoutBase(~{::contenido})">
+
+<div th:fragment="contenido">
+    <div class="row mb-3">
+        <h2>Dashboard</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card bg-dark text-white">
+                <div class="card-body text-center">
+                    <h4>Sistema de Gestion SERFAGAB</h4>
+                    <p class="mb-0">Bienvenido al sistema de registro de ordenes de compra y control de materiales.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <th:block th:utext="${toast}"></th:block>
+</div>
+
+</html>

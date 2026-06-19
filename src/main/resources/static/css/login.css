@@ -1,25 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+* { margin:0; padding:0; }
 
 body {
     background-image: url('imagenes/laser.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-
-
-/*body {
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}*/
-
-.box-login {
-    width: 400px;
-}
+.box-login { width:400px; }
